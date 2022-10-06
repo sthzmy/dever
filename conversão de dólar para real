@@ -1,0 +1,18 @@
+import  java.util.Scanner;
+
+public class Principal {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("digite o valor em dólares");
+        double número1 = entrada.nextDouble();
+        double resultado = (número1*1,72);
+
+        System.out.println("resultado da conversão:" +resultado);
+  
+
+    }
+}
+
