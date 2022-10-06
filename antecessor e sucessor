@@ -1,0 +1,20 @@
+import  java.util.Scanner;
+
+public class Principal {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("digite um número");
+        double número = entrada.nextDouble();
+        double antecessor = número-1;
+        double sucessor = numero+1;
+
+        System.out.println("antecessor:" +antecessor);
+        System.out.println("número:"+número);
+        System.out.println("sucessor"+sucessor);
+  
+
+    }
+}
