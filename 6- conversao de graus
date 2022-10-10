@@ -1,0 +1,16 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite sua temperatura em Fahrenheit");
+        double temperatura= entrada.nextDouble();
+        double resultado= (temperatura-32)*5/8;
+        System.out.println("Sua temperatura em graus celcius é"+resultado);
+
+    }
+}
+
