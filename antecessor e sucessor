@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class Principal {
+public class media {
 
     public static void main(String[] args) {
 
@@ -9,12 +9,12 @@ public class Principal {
         System.out.println("digite um número");
         double número = entrada.nextDouble();
         double antecessor = número-1;
-        double sucessor = numero+1;
+        double sucessor = número+1;
 
         System.out.println("antecessor:" +antecessor);
         System.out.println("número:"+número);
         System.out.println("sucessor"+sucessor);
-  
+
 
     }
 }
