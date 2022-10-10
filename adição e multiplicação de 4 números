@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class Principal {
+public class media {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,11 @@ public class Principal {
         double numero3 = entrada.nextDouble();
         System.out.println("digite o quarto número");
         double numero4 = entrada.nextDouble();
+        double numero5 = numero1+numero2+numero3+numero4;
+        double numero6 = numero1*numero2*numero3*numero4;
 
-        System.out.println("Resultado adição:" numero1+numero2+numero3+numero4);
-        System.out.println("Resultado multiplicação:"numero1*numero2*numero3*numero4);
+        System.out.println("Resultado adição:" +numero5);
+        System.out.println("Resultado multiplicação:"+numero6);
 
 
 
