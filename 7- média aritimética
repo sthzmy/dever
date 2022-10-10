@@ -1,0 +1,19 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digiteo número 1");
+        double numero1 = entrada.nextDouble();
+        System.out.println("Digite o némero 2");
+        double número2= entrada.nextDouble();
+        System.out.println("Digite o némero 3");
+        double número3= entrada.nextDouble();
+        double média = (numero1+número2+número3)/3;
+        System.out.println("A média aritimética destes números é"+média);
+
+    }
+}
