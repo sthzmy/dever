@@ -1,0 +1,17 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite a distância percorrida em km");
+        double distancia = entrada.nextDouble();
+        System.out.println("Digite o valor de consumo médio do automóvel em km por l");
+        double valor= entrada.nextDouble();
+        double taxa = distancia*valor;
+        System.out.println("Quantidade de litros que o aumóvel gastará na viagem"+taxa);
+
+    }
+}
