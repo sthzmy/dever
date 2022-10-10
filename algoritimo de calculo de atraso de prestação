@@ -1,0 +1,21 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite o valor da prestação");
+        double prestação = entrada.nextDouble();
+        System.out.println("Digite o valor de dias em atraso");
+        double dias= entrada.nextDouble();
+        System.out.println("Digite a taxa de juros");
+        double taxa = entrada.nextDouble();
+        double resultado =(prestação+(prestação*(taxa/100)*dias));
+        System.out.println("Resultado:"+resultado);
+
+
+    }
+}
+
