@@ -1,0 +1,23 @@
+mport  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("digite o número");
+        double número1 = entrada.nextDouble();
+        System.out.println(+número1);
+        double raiz = número1*número1;
+        System.out.println("o quadrado desse número é"+raiz);
+        double número2 = Math.sqrt(número1);
+        System.out.println("Raiz quadrada do número é"+número2);
+
+
+
+
+
+    }
+}
+
